@@ -1138,6 +1138,40 @@ video {
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:rounded-md {
+    border-radius: 0.375rem;
+  }
+
+  .md\:rounded {
+    border-radius: 0.25rem;
+  }
+
+  .md\:rounded-r-md {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+  }
+
+  .md\:rounded-t-none {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  @media (min-width: 768px) {
+    .md\:md\:rounded-r-md {
+      border-top-right-radius: 0.375rem;
+      border-bottom-right-radius: 0.375rem;
+    }
+  }
+
+  .md\:rounded-l-none {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .md\:rounded-tl-none {
+    border-top-left-radius: 0px;
+  }
+
   .md\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
