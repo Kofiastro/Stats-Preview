@@ -21,7 +21,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [(https://github.com/Kofiastro/Stats-Preview)]
-- Live Site URL:[(https://lighthearted-bombolone-4d3ac5.netlify.app/)]
+- Live Site URL:[(https://calm-florentine-edd3f1.netlify.app/)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
