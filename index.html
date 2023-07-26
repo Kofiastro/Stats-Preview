@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <!--Main Container-->
+  <div class="flex items-center justify-center  bg-verydarkBlueMain md:h-screen">
+    <!--Main card-->
 
-  Get insights that help your business grow.
+    <div class=" bg-Darkdesaturatedblue_card  mx-4 md:mx-20 my-16 ">
+      <!--Flex container-->
+      <div class="flex flex-col md:flex-row-reverse ">
+        <!--Image card-->
+        <div class="bg-SoftViolet opacity-40  ">
+          <img src="./images/header-mobile.jpg" class="md:h-full md:w-full md:object-cover  mix-blend-overlay"
+            alt="BG_COVER">
+        </div>
+        <!--Contents_Card-->
+        <div class="font-Inter mx-4 md:items-left md:mx-28  md:max-w-md md:flex md:flex-col md:justify-center ">
+          <h1 class="text-3xl font-semibold text-white text-center md:text-4xl md:text-left pt-10 ">Get <span
+              class="text-SoftViolet">insights</span> that help your business grow.</h1>
+          <p
+            class="text-slightlyTranspWhiteStat mt-4 text-center text-lg font-extralight  leading-6  md:text-left md:py-4 md:tracking-wide md:text-md">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience,
+            and overall efficiency.
+          </p>
+          <div
+            class="my-12 flex flex-col space-y-6 text-white items-center  md:flex-row md:space-x-20 md:items-baseline   ">
+            <div class=" text-center md:text-left">
+              <h1 class="text-2xl font-bold">10K+</h1>
+              <p class="text-slightlyTranspWhiteMain tracking-widest text-sm font-Lexend">COMPANIES</p>
+            </div>
+            <div class=" text-center md:text-left ">
+              <h1 class="text-2xl font-bold">314</h1>
+              <p class="text-slightlyTranspWhiteMain tracking-widest  text-sm font-Lexend ">TEMPLATES</p>
+            </div>
+            <div class="text-center md:text-left">
+              <h1 class="text-2xl font-bold">12M+</h1>
+              <p class="text-slightlyTranspWhiteMain tracking-widest  text-sm font-Lexend">QUERIES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+  <footer class="bg-cream font-Red_Hat text-xs text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-500" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a href="https://github.com/Kofiastro/" class="text-blue-500" target="_blank">Kofi Danso Amakye </a>.
+  </footer>
 </body>
+
 </html>
